@@ -18,7 +18,8 @@ Sistema de login e cadastro desenvolvido como projeto pessoal para aprimoramento
    `git clone https://github.com/seu-usuario/seu-repositorio.git`
 2. Instale as dependências:
    `pip install -r requirements.txt`
-3. Execute o sistema: Com a pasta do repositorio aberta no CMD, execute:
+3. Renomeie o arquivo `.env.example` para apenas `.env`, abra-o e adapte as informações de host, user e password para seu próprio banco de dados (recomendo utilizar o [Clever Cloud](https://console.clever-cloud.com/) para criar um banco de dados MySQL gratuito, basta seguir os passos no próprio site)
+4. Execute o sistema: Com a pasta do repositorio aberta no CMD, execute:
    `python frontend.py`
 
 ___
